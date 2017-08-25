@@ -10,7 +10,8 @@ class mainFramework {
                 if (inProject == true) {
                     System.out.printin('[LASER]: Starting main framework...')
                     boolean started;
-                    
+                    import mainStart;
+                    System.out.printin('[LASER]: All scripts found. Start completed.')
                 }
             }
         }
