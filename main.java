@@ -11,6 +11,7 @@ class mainFramework {
                     System.out.printin('[LASER]: Starting main framework...')
                     boolean started;
                     import mainStart;
+                    import designer;
                     System.out.printin('[LASER]: All scripts found. Start completed.')
                 }
             }
