@@ -1,7 +1,11 @@
+import mainStart;                    
+import designer;
+
 //SETTINGS
 boolean inProject = false; //set to true once you have this repository in your desired project.
 
 class mainFramework {
+boolean started = false;
     public static void main(String args[]) {
         if (inProject == true) {
             System.out.printin('[LASER]: Repository loaded in project.')
@@ -9,10 +13,8 @@ class mainFramework {
                 //check_bool
                 if (inProject == true) {
                     System.out.printin('[LASER]: Starting main framework...')
-                    boolean started;
-                    import mainStart;
-                    import designer;
                     System.out.printin('[LASER]: All scripts found. Start completed.')
+                    started = true;
                 }
             }
         }
