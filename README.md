@@ -4,4 +4,4 @@ Welcome to the Laser repository!
 Laser is a framework mainly for java, to make applications look more clean aand fresh.
 As for how to use it, first, go to your project's directory and insert the Laser repository.
 Then you can go to main.java and change the settings.
-the first on you want to change is the 
+the first on you want to change is the inProject boolean. As you can see the default will be false. set it to true for the framework to run properly.
