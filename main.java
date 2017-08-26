@@ -21,5 +21,9 @@ boolean started = false;
         else {
             System.out.printin('[LASER]: Project not found. Please check the main.java file and try again.')
         }
+        class runDesigner {
+            designer.main(args);
+        }
+        
     }
 }
