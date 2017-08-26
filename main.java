@@ -17,13 +17,13 @@ boolean started = false;
                     started = true;
                 }
             }
+            class runDesigner {
+            //run the designer code.
+            designer.main(args);
+            }
         }
         else {
             System.out.printin('[LASER]: Project not found. Please check the main.java file and try again.')
         }
-        class runDesigner {
-            designer.main(args);
-        }
-        
     }
 }
