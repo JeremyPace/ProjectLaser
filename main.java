@@ -1,5 +1,4 @@
 import mainStart;                    
-import designer;
 
 //SETTINGS
 boolean inProject = false; //set to true once you have this repository in your desired project.
